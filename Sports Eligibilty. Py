@@ -1,0 +1,20 @@
+name = input("Enter your name ")
+age = int(input("enter you age"))
+marks=float(input("enter your marks"))
+edut=input("qualification(between 1 to 10)")
+
+print("Pleasure meeting!",name)
+print("your age =", age)
+print("your marks =",marks)
+print("your qualification is",edut)
+
+#admission to sports quota
+game = input("name of game")
+print("you choosen ",game)
+
+#eligibilty criteria for games
+if age <=18:
+    print("eligible")
+
+elif age > 18:
+    print("not eligible")
